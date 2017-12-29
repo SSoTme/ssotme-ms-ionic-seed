@@ -17,6 +17,10 @@
         <FileSet>
             <FileSetFiles>
                 <FileSetFile>
+                    <RelativePath>../SSoT/UseDefaultAppStates.bat</RelativePath>
+                    <FileContents>xcopy /y appstates.default.csv AppStates.csv</FileContents>
+                </FileSetFile>
+                <FileSetFile>
                     <RelativePath>
                         <xsl:text>../ConsoleApp1/App.config</xsl:text>
                     </RelativePath>
@@ -182,27 +186,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{419B1A
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLibrary", "CoreLibrary\CoreLibrary.csproj", "{C3C5F7F6-D9D8-4165-911B-0527B69EA7EF}"
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ODXML", "ODXML\", "{A40F7CDC-1AD8-44A0-BFAC-BC6CF2D9D967}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_59878"
-		Debug.AspNetCompiler.PhysicalPath = "ODXML\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59878\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_59878"
-		Release.AspNetCompiler.PhysicalPath = "ODXML\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59878\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "59878"
-		SlnRelativePath = "ODXML\"
-	EndProjectSection
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SqlServer", "SqlServer\", "{5546C69F-57F6-4DDD-901F-3F3225577B79}"
 	ProjectSection(WebsiteProperties) = preProject

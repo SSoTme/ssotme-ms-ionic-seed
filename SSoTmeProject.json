@@ -79,8 +79,8 @@
       "CLIHandler": null,
       "ProjectTranspilerId": "fc5431b0-3a67-4fc6-86ce-922a8076f4ec",
       "Name": "WordlistXmlToRenamesCsv",
-      "RelativePath": "/ODXML",
-      "CommandLine": "wordlist-xml-to-renames-csv -i ..\\SSoT\\ProjectDescription.txt.xml -i Renames.csv"
+      "RelativePath": "/SSoT",
+      "CommandLine": "wordlist-xml-to-renames-csv -i .\\ProjectDescription.txt.xml -i MainSchema.csv"
     },
     {
       "MatchedTranspiler": {
@@ -118,7 +118,7 @@
       "ProjectTranspilerId": "e22ecc80-217b-4c99-8b6c-f32cbdb51f2e",
       "Name": "RenamesCSVToOdxml",
       "RelativePath": "/ODXML",
-      "CommandLine": "odxml42/renames-csv-to-odxml -i .\\Renames.csv"
+      "CommandLine": "odxml42/renames-csv-to-odxml -i ..\\SSoT\\PrimarySchema.csv"
     },
     {
       "MatchedTranspiler": {
@@ -278,6 +278,13 @@
       "Name": "AppStatesCsvToAppStatesXml",
       "RelativePath": "/SSoT",
       "CommandLine": "app-states-csv-to-app-states-xml -i .\\AppStates.csv  -i ..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "CLIHandler": null,
+      "ProjectTranspilerId": "f5276231-1a3c-41f6-acf6-466c2a6e421f",
+      "Name": "UseDefaultAppStates",
+      "RelativePath": "/SSoT",
+      "CommandLine": "-exec UseDefaultAppStates.bat"
     },
     {
       "MatchedTranspiler": {
