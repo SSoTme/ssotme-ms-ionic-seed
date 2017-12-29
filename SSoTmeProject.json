@@ -4,7 +4,7 @@
   "RootPath": "C:\\Development\\ssotme-ms-ionic-seed",
   "ProjectSettings": [
     {
-      "ProjectSettingId": "e4ea0345-a4d2-4135-b13e-23b6cd0d164c",
+      "ProjectSettingId": "61346177-9041-47d5-a049-9b2c1d0f2902",
       "Name": "project-name",
       "Value": "MSIonicSeed"
     }
@@ -25,7 +25,6 @@
         "LowerHyphenName": "text-to-word-list-xml",
         "InputFileTypeId": "6c58b9cb-e109-4273-a52b-c8a68f4009da",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 1032,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -62,7 +61,6 @@
         "ReadMeMD": "Converts a wordlist xml created by the [codee42/text-to-wordlist-xml] tool into a Renames.Csv file which can then be turned into an Odxml file.",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
-        "UsageCount": 764,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -101,7 +99,6 @@
         "InputDescriptionMD": "The input CSV can have\r\nFromName (object | object.property)\r\nToName (object | property)\r\nParentName\r\nInclude (true | false)\r\nDescription\r\nDataType\r\nDataLength\r\n",
         "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
         "OutputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
-        "UsageCount": 829,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -142,7 +139,6 @@
         "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
-        "UsageCount": 5035,
         "Category": "type-conversion",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -182,7 +178,6 @@
         "ReadMeMD": "Adds any missing tables and relationships in a SQL Server database based on an ODXML Schema description.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "1136a8fc-7ced-47c2-b08d-1ff447a82b01",
-        "UsageCount": 917,
         "Category": "sql-server",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -221,7 +216,6 @@
         "ReadMeMD": "param name=\"include-list-prefix\" select=\"true\"\r\nWill include the fieldname of the referenced object before lists so that if a child object has multiple references to an object, the collections on the parent will be distinguished by the name of the child properties.\r\n\r\nparam name=include-sdm-expand=false\r\nparam name=include-load-methods=true\r\n\r\nparam name=\"include-inheritance\" select=\"true\"\r\nIf a relationship exists on the primary key fo the object, it will be infered to \"descend\" from the refrenced object.\r\n\r\nparam name=\"pluralize-json-references\" select=\"true\"\r\nDetermines if the \"original name\" should be pluraized in the Json serialization header.\r\n\r\nparam name=sdm--namespace = 'using KP.ODXML7.SqlDataManager.{project-name}.SqlDataManagement;'\r\n\r\n\r\nparam name=extensions-namespace = 'CoreLibrary.Extensions'\r\n\r\nparam name=serialize-to-original-names=\"'false\"  \r\nInidicates if the json formatting should use original names\r\n\r\nparam name=\"csproj-filename\" = ''\r\nparam name=\"output-csproj-filename\" = ''\r\nparam name=\"relative-path\" = ''\r\n",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 1388,
         "Category": "dot-net",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -264,7 +258,6 @@
         "ExampleMD": "ssotme -install app-states-csv-to-app-states-xml -i AppStates.csv",
         "InputFileTypeId": "2b02094e-3b80-4a07-8db2-0c2f38d44328",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 358,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -303,7 +296,6 @@
         "ExampleMD": "ssotme -install app-states-xml-to-app-states-docs -i AppStates.xml",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 352,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -340,7 +332,6 @@
         "LowerHyphenName": "ionic-states-from-app-states-xml",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "f8391567-b3d9-4e34-8a45-3d6bd9da4b9b",
-        "UsageCount": 408,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -364,6 +355,42 @@
     },
     {
       "MatchedTranspiler": {
+        "TranspilerId": "fa2179e5-d902-47e6-bab0-3d8c137b4c66",
+        "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
+        "Name": "OdxmlToAngularRestAPI",
+        "DisplayName": "Odxml To Angular Rest A P I",
+        "Description": "Creates an Angular 2+ (TypeScript) service with basic crud operations from the provided ODXML file",
+        "CreatedOn": "2017-12-18T06:19:36.463",
+        "IsActive": true,
+        "CurrentRoutingKey": "amq.gen-gYmBv0rMPN2fYILP4FzLww",
+        "LowerName": "odxmltoangularrestapi",
+        "UpperName": "ODXMLTOANGULARRESTAPI",
+        "LowerHyphenName": "odxml-to-angular-rest-a-p-i",
+        "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
+        "OutputFileTypeId": "f8391567-b3d9-4e34-8a45-3d6bd9da4b9b",
+        "TranspileRequests": [],
+        "TranspilerInstances": [],
+        "TranspilerVersions": [
+          {
+            "TranspilerVersionId": "e773315d-4c5f-4659-b0d4-9c24b5fbe5bb",
+            "TranspilerId": "fa2179e5-d902-47e6-bab0-3d8c137b4c66",
+            "Name": "v1",
+            "CreatedOn": "2017-12-18T06:19:41.403",
+            "IsActive": true,
+            "TranspilerFileTypeId_TranspilerInputHints": [],
+            "TranspilerInstances": [],
+            "ReplacedByTranspilerVersionId_TranspilerVersions": []
+          }
+        ]
+      },
+      "CLIHandler": null,
+      "ProjectTranspilerId": "0bd34739-32ca-4dc3-9e55-4c743fb89075",
+      "Name": "OdxmlToAngularRestAPI",
+      "RelativePath": "/ionic2-ts-sidemenu1/src/providers",
+      "CommandLine": "odxml42/OdxmlToAngularRestAPI -i ..\\..\\..\\ODXML\\DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
         "TranspilerId": "91081c58-9a04-4646-8ffb-d5ca789916d2",
         "AccountHolderId": "9aeb4f89-3c90-4972-927c-7deebfbb9de4",
         "Name": "OdxmlToCSharpSqlDataManager",
@@ -380,7 +407,6 @@
         "OutputDescriptionMD": "Otuputs a CSharp library which can read/write/udpate the objects described by the input odxml file",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 645,
         "Category": "dot-net",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -420,7 +446,6 @@
         "InputDescriptionMD": "param name=\"project-name\" select=\"'REST Collection'\"  \r\nparam name=\"api-uri\" select=\"'http://localhost:64110/api/'\"\r\n",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "e827499f-f215-4b35-8dae-6bd423a75e4c",
-        "UsageCount": 464,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -457,7 +482,6 @@
         "LowerHyphenName": "odxml-to-m-v-c-r-e-s-t-a-p-i",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "47f5fc9f-0c22-4f73-8d18-0544a7f05d7b",
-        "UsageCount": 425,
         "TranspileRequests": [],
         "TranspilerInstances": [],
         "TranspilerVersions": [
@@ -495,7 +519,6 @@
         "ReadMeMD": "Examines the schema defined by an Odxml file and creates an interactive DataModel explorer for exploring the structure of the data model defined. \r\n\r\nCreates both a single page version of the docs, as well as a Node.JS website that can be started on demand to explore the data model more interactively.",
         "InputFileTypeId": "33de424c-cfe0-498e-ae70-44da375a8fb2",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 1234,
         "Category": "documentation",
         "IsRecommended": true,
         "TranspileRequests": [],
@@ -546,7 +569,6 @@
         "ExampleMD": "ssotme -createDocs",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "UsageCount": 560,
         "Category": "ssotme",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -585,7 +607,6 @@
         "ReadMeMD": "This system tool turns a detailed SPXml file into detailed Html Documentation about how the SSoT.me project is organized. Specifically, how does the tech \"flow\" thorugh the project. ",
         "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
         "OutputFileTypeId": "d8fc84b7-442d-4c7a-92a0-eefc11391934",
-        "UsageCount": 513,
         "Category": "ssotme",
         "TranspileRequests": [],
         "TranspilerInstances": [],
@@ -607,49 +628,6 @@
       "Name": "DetailedSPXmlToHtmlDocs",
       "RelativePath": "/DSPXml",
       "CommandLine": "detailed-spxml-to-html -i .\\SSoTmeProject.dspxml"
-    },
-    {
-      "MatchedTranspiler": {
-        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
-        "AccountHolderId": "1e876e4f-d63b-4698-bd68-3bc27876e41e",
-        "Name": "XmlXsltTransform",
-        "DisplayName": "Xml Xslt Transform",
-        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset.",
-        "CreatedOn": "2017-08-30T15:45:09.907",
-        "IsActive": true,
-        "CurrentRoutingKey": "amq.gen-pwRUdyqwEq8fPN8gkK7ADg",
-        "LowerName": "xmlxslttransform",
-        "UpperName": "XMLXSLTTRANSFORM",
-        "LowerHyphenName": "xml-xslt-transform",
-        "ReadMeMD": "The tool processes the first text file it finds (which is presumed to be in xml format), with the first Xslt file provided, and includes any parameters that are passed to ssotme as well.\r\n\r\nThe output is expected to be a FileSet Xml blob with the results of the transform.",
-        "InputDescriptionMD": "At least 1 input Xml file, An Xslt file to use for the Transform operation and any additional parameters that the Xslt file uses for it's transpiling functionality.  These could be options, values, namespaces, etc.",
-        "OutputDescriptionMD": "A fileset with the result of the Xslt transform, usually including at least 1 or more files.  The example command might produce an HTML Document that describes (in english) the contents of the Xml file.  Essentially a \"report\" about the xml file. ",
-        "ExampleMD": "ssotme -install xml-xslt-transform -i MyData.xml -i CreateDocs.xslt",
-        "InputFileTypeId": "f1b92a2a-3f83-4000-9b37-57f920e14419",
-        "OutputFileTypeId": "952e47eb-3448-4627-8dc4-93dab494c957",
-        "UsageCount": 5035,
-        "Category": "type-conversion",
-        "IsRecommended": true,
-        "TranspileRequests": [],
-        "TranspilerInstances": [],
-        "TranspilerVersions": [
-          {
-            "TranspilerVersionId": "7e941388-752b-4b0f-9631-939b790be10f",
-            "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
-            "Name": "v1",
-            "CreatedOn": "2017-08-30T15:45:10.653",
-            "IsActive": true,
-            "TranspilerFileTypeId_TranspilerInputHints": [],
-            "TranspilerInstances": [],
-            "ReplacedByTranspilerVersionId_TranspilerVersions": []
-          }
-        ]
-      },
-      "CLIHandler": null,
-      "ProjectTranspilerId": "593a6196-803c-49d6-9732-b2ef074bdeb8",
-      "Name": "XmlXsltTransform",
-      "RelativePath": "/ionic2-ts-sidemenu1/src/providers",
-      "CommandLine": "xml-xslt-transform -i ..\\..\\..\\ODXML\\DataSchema.odxml -i CreateRestAPIService.xslt"
     }
   ]
 }
