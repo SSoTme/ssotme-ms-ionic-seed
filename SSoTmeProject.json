@@ -80,7 +80,7 @@
       "ProjectTranspilerId": "fc5431b0-3a67-4fc6-86ce-922a8076f4ec",
       "Name": "WordlistXmlToRenamesCsv",
       "RelativePath": "/SSoT",
-      "CommandLine": "wordlist-xml-to-renames-csv -i .\\ProjectDescription.txt.xml -i MainSchema.csv"
+      "CommandLine": "wordlist-xml-to-renames-csv -i .\\ProjectDescription.txt.xml -i PrimarySchema.csv"
     },
     {
       "MatchedTranspiler": {
@@ -280,6 +280,7 @@
       "CommandLine": "app-states-csv-to-app-states-xml -i .\\AppStates.csv  -i ..\\ODXML\\DataSchema.odxml"
     },
     {
+      "MatchedTranspiler": null,
       "CLIHandler": null,
       "ProjectTranspilerId": "f5276231-1a3c-41f6-acf6-466c2a6e421f",
       "Name": "UseDefaultAppStates",
