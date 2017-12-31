@@ -19,6 +19,31 @@
                 <FileSetFile>
                     <RelativePath>../MVCRestAPI/Views/Shared/_Layout.cshtml</RelativePath>
                     <OverwriteMode>Never</OverwriteMode>
+                    <xsl:element name="FileContents" xml:space="preserve">
+            <div class="jumbotron">
+    <h1>Welcome to <xsl:value-of select="$project-name"/></h1>
+    <p class="lead">This is the SSoT.me starting page for the MVC Web API for the back end of the IONIC Mobile App.</p>
+    <p><a href="http://ssot.me" class="btn btn-primary btn-lg">Learn more >></a></p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>More content goes here.</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Getting more</h2>
+        <p>Find out more</p>
+    </div>
+    <div class="col-md-4">
+        <h2>And more still</h2>
+        <p>And this is more space for info</p>
+    </div>
+</div>
+</xsl:element>
+                </FileSetFile>
+                <FileSetFile>
+                    <RelativePath>../MVCRestAPI/Views/Shared/_Layout.cshtml</RelativePath>
+                    <OverwriteMode>Never</OverwriteMode>
                     <xsl:element name="FileContents" xml:space="preserve">&lt;!DOCTYPE html>
 <html>
 <head>
