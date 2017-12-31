@@ -17,7 +17,7 @@
         <FileSet>
             <FileSetFiles>
                 <FileSetFile>
-                    <RelativePath>../MVCRestAPI/Views/Shared/_Layout.cshtml</RelativePath>
+                    <RelativePath>../MVCRestAPI/Views/Home/Index.cshtml</RelativePath>
                     <OverwriteMode>Never</OverwriteMode>
                     <xsl:element name="FileContents" xml:space="preserve">
             <div class="jumbotron">
