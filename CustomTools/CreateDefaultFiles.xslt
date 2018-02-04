@@ -213,7 +213,7 @@
     &lt;/modules>
     &lt;httpProtocol>
         &lt;customHeaders>
-            &lt;add name="Access-Control-Allow-Origin" value="*" />
+            &lt;!-- &lt;add name="Access-Control-Allow-Origin" value="*" /> -->
             &lt;add name="Access-Control-Allow-Headers" value="Content-Type" />
             &lt;add name="Access-Control-Allow-Methods" value="GET, POST, PUT, DELETE, OPTIONS" />
         &lt;/customHeaders>

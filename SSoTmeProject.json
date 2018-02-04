@@ -359,7 +359,7 @@
       "ProjectTranspilerId": "c63763f1-3137-4465-8877-63fc5393b292",
       "Name": "IonicStatesFromAppStatesXml",
       "RelativePath": "/ionic2-ts-sidemenu1/src",
-      "CommandLine": "ionic-states-from-app-states-xml -i ..\\..\\SSoT\\AppStates.xml"
+      "CommandLine": "ionic-states-from-app-states-xml -i ..\\..\\SSoT\\AppStates.xml -p starting-dots=../../ -p \"include-api-ref=true\" "
     },
     {
       "MatchedTranspiler": {
